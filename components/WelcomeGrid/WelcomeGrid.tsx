@@ -27,7 +27,6 @@ export function WelcomeGrid() {
           height={PRIMARY_COL_HEIGHT}
           src="/services/xbox.jpg"
           alt="Game Pass"
-          onCl
         />
         </Link>
         <Grid gutter="md">
