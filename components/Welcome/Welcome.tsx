@@ -7,18 +7,18 @@ export function Welcome() {
   return (
     <>
       <Title className={classes.title} align="center" mt={100}>
-        Welcome to{' '}
+        Hey, it's me{' '}
         <Text inherit variant="gradient" component="span">
-          Mantine
+          your brother
         </Text>
       </Title>
-      <Text color="dimmed" align="center" size="lg" sx={{ maxWidth: 580 }} mx="auto" mt="xl">
-        This starter Next.js project includes a minimal setup for server side rendering, if you want
-        to learn more on Mantine + Next.js integration follow{' '}
-        <Anchor href="https://mantine.dev/guides/next/" size="lg">
-          this guide
+      <Text color="dimmed" align="center" size="lg" sx={{ maxWidth: 700 }} mx="auto" mt="xl">
+        {`Ever wanted a family or friends group discount but you don't have either? 
+        Well today's your lucky day, let strangers be your family! 
+        `}
+        <Anchor href="https://google.co.nz/" size="lg">
+        Here's how it works!
         </Anchor>
-        . To get started edit index.tsx file.
       </Text>
     </>
   );
