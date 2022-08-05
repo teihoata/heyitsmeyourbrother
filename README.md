@@ -1,12 +1,10 @@
-# Mantine Next Template
+# Hey its me, your brother
 
-Get started with Mantine + Next with just a few button clicks.
-Click `Use this template` button at the header of repository or [follow this link](https://github.com/mantinedev/mantine-next-template/generate) and
-create new repository with `@mantine` packages. Note that you have to be logged in to GitHub to generate template.
+Website to let people sneaky share family plans
 
 ## Features
 
-This template comes with several essential features:
+Built with Mantine + NEXT 
 
 - Server side rendering setup for Mantine
 - Color scheme is stored in cookie to avoid color scheme mismatch after hydration
