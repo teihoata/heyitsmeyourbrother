@@ -6,7 +6,7 @@ import { XboxTable } from '../../components/XboxTable/XboxTable';
 const fetcher = (url: string) => fetch(url).then((res) => res.json())
 
 export default function XboxPage() {
-    const { data, error } = useSWR('/api/users', fetcher);
+    const { data, error } = useSWR('./api/users', fetcher);
     if (error) return <div>Failed to load</div>
     if (!data) return <div>Loading...</div>
   
