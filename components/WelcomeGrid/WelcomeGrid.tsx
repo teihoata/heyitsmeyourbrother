@@ -22,10 +22,10 @@ export function WelcomeGrid() {
         spacing="md"
         breakpoints={[{ maxWidth: "sm", cols: 1 }]}
       >
-        <Link href="/xbox"><Image
+        <Link href="./xbox"><Image
           radius="md"
           height={PRIMARY_COL_HEIGHT}
-          src="/services/xbox.jpg"
+          src="./services/xbox.jpg"
           alt="Game Pass"
         />
         </Link>
@@ -34,7 +34,7 @@ export function WelcomeGrid() {
             <Image
               radius="md"
               height={SECONDARY_COL_HEIGHT}
-              src="/services/youtube.png"
+              src="./services/youtube.png"
               alt="Youtube"
             />
           </Grid.Col>
@@ -42,7 +42,7 @@ export function WelcomeGrid() {
             <Image
               radius="md"
               height={SECONDARY_COL_HEIGHT}
-              src="/services/spotify.png"
+              src="./services/spotify.png"
               alt="Spotify"
             />
           </Grid.Col>
@@ -50,7 +50,7 @@ export function WelcomeGrid() {
             <Image
               radius="md"
               height={SECONDARY_COL_HEIGHT}
-              src="/services/netflix.png"
+              src="./services/netflix.png"
               alt="Netflix"
             />
           </Grid.Col>
@@ -60,7 +60,7 @@ export function WelcomeGrid() {
             <Image
               radius="md"
               height={SECONDARY_COL_HEIGHT}
-              src="/services/nintendo.png"
+              src="./services/nintendo.png"
               alt="Nintendo"
             />
           </Grid.Col>
@@ -68,7 +68,7 @@ export function WelcomeGrid() {
             <Image
               radius="md"
               height={SECONDARY_COL_HEIGHT}
-              src="/services/pornhub.jpg"
+              src="./services/pornhub.jpg"
               alt="Pornhub"
             />
           </Grid.Col>
@@ -76,7 +76,7 @@ export function WelcomeGrid() {
             <Image
               radius="md"
               height={SECONDARY_COL_HEIGHT}
-              src="/services/office.jpg"
+              src="./services/office.jpg"
               alt="Office 365"
             />
           </Grid.Col>
@@ -84,7 +84,7 @@ export function WelcomeGrid() {
         <Image
           radius="md"
           height={PRIMARY_COL_HEIGHT}
-          src="/services/apple.png"
+          src="./services/apple.png"
           alt="Apple"
         />
 
