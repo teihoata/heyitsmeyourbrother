@@ -13,7 +13,7 @@ export default function XboxPage() {
   return (
     <>
     <Link href="/"><Button mx={10} mt={10} variant="outline" color="cyan" size="md">Back</Button></Link>
-    <Image src="/services/xbox-logo.png" color="dimmed" align="center" size="md" sx={{ maxWidth: 600 }} mx="auto" mt={20} />
+    <Image src="/services/xbox-logo.png" color="dimmed" sx={{ maxWidth: 600 }} mx="auto" mt={20} />
     <XboxTable data={data.data}></XboxTable>
     </>
   );
